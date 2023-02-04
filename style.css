@@ -35,13 +35,9 @@
     border-radius: 30px;
     width: 30px;
     background-color: var(--main-bg-color);
-    transition: all 3s ease;
+    transition: all 1s ease;
 }
 
 .toggle-label:hover {
     background-color: grey;
-}
-
-.toggle-label:active {
-    transform: scale(0.95);
 }
