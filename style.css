@@ -1,0 +1,43 @@
+.dark {
+    --main-bg-color: #191970
+}
+
+.light {
+    --main-bg-color: #87cefa
+}
+
+.background {
+    color: var(--main-bg-color);
+}
+
+.toggle {
+    position: relative
+}
+
+.toggle-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.toggle-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 0px solid;
+    padding: 4px;
+    border-radius: 30px;
+    width: 30px;
+    background-color: var(--main-bg-color);
+    transition: all 3s ease;
+}
+
+.toggle-label:hover {
+    background-color: grey;
+}
+
+.toggle-label:active {
+    transform: scale(0.95);
+}
