@@ -6,8 +6,12 @@
     --main-bg-color: #87cefa
 }
 
-.background {
-    color: var(--main-bg-color);
+.page {
+    position: relative;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    padding: 8px;
 }
 
 .toggle {

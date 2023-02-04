@@ -1,6 +1,7 @@
 const page = document.querySelector(".page");
-const toggle = document.querySelector("toggle-input");
-toggle.addEventListener("change", toggleTheme);
+const toggle = page.querySelector(".toggle-input");
+const toggleIcon = page.querySelector(".toggle-icon");
+setCheckedState();
 function toggleTheme(){
     if(toggle.checked){
         page.classList.replace('light', 'dark');
@@ -22,3 +23,4 @@ function setCheckedState(){
         toggleTheme();
     }
 }
+toggle.addEventListener("change", toggleTheme);
