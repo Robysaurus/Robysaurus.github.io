@@ -1,43 +1,143 @@
-.dark {
-    --main-bg-color: #191970
-}
-
-.light {
-    --main-bg-color: #87cefa
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  85% {
+    transform: rotate(5deg);
+  }
+  95% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .page {
-    position: relative;
-    background-color: var(--main-bg-color);
-    display: flex;
-    align-items: center;
-    padding: 8px;
+  position: relative;
+  background-color: var(--main-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 8px;
+}
+
+.light {
+  --main-bg: #dae3e5;
+  --text-bg: #bbd1ea;
+  --shadow: #a1c6ea;
+  --text-sec: #507dbc;
+  --text-main: #16263b;
+}
+
+.dark {
+  --main-bg: #16263b;
+  --text-bg: #507dbc;
+  --shadow: #a1c6ea;
+  --text-sec: #bbd1ea;
+  --text-main: #dae3e5;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 64px;
+}
+
+.content {
+  max-width: 800px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-family:'Courier New', Courier, monospace;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  color: var(--text-main);
+}
+
+.subtitle {
+  font-family:'Courier New', Courier, monospace;
+  margin: 0;
+  width: 100%;
+  text-align: left;
+  text-indent: 32px;
+  color: var(--text-sec);
+  margin-bottom: 32px;
+}
+
+.subtitle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .toggle {
-    position: relative
+  position: relative;
+  margin-bottom: 24px;
+  user-select: none;
+}
+
+.content:hover .toggle-icon {
+  animation: wiggle 1s linear;
+}
+
+.toggle-icon {
+  width: 28px;
+  user-select: none;
 }
 
 .toggle-input {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  user-select: none;
 }
 
 .toggle-label {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    border: 0px solid;
-    padding: 4px;
-    border-radius: 30px;
-    width: 30px;
-    background-color: var(--main-bg-color);
-    transition: all 1s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 3px solid var(--text-main);
+  padding: 4px;
+  border-radius: 50px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: var(--text-bg);
+  transition: all 0.3s ease;
+  user-select: none;
 }
 
 .toggle-label:hover {
-    background-color: grey;
+  background-color: var(--shadow);
+}
+
+.toggle-label:active {
+  transform: scale(0.95);
+}
+
+.transparency {
+  opacity: 1;
+  transition: all 0.1s ease;
+}
+
+.transparency:hover {
+  opacity: 0.7;
 }
