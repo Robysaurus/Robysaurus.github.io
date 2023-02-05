@@ -1,11 +1,10 @@
 .page {
   position: relative;
   background-color: var(--main-bg);
-  display: flex;
+  display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
   padding: 8px;
