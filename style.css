@@ -122,10 +122,13 @@
   background-color: var(--btn-main);
   border: 2px;
   border-color: dimgray;
+  border-radius: 40px;
+  width: 80px;
   color: black;
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
+  margin: 0 auto;
 }
 
 .dwnldbtn:hover {
