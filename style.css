@@ -16,6 +16,7 @@
   --shadow: #a1c6ea;
   --text-sec: #507dbc;
   --text-main: #16263b;
+  --btn-main: skyblue;
 }
 
 .dark {
@@ -24,6 +25,7 @@
   --shadow: #a1c6ea;
   --text-sec: #bbd1ea;
   --text-main: #dae3e5;
+  --btn-main: steelblue;
 }
 
 .header {
@@ -114,4 +116,18 @@
 
 .transparency:hover {
   opacity: 0.7;
+}
+
+.dwnldbtn {
+  background-color: var(--btn-main);
+  border: 2px;
+  border-color: dimgray;
+  color: black;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.dwnldbtn:hover {
+  background-color: RoyalBlue;
 }
