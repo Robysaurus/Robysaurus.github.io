@@ -91,7 +91,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  border: 2px solid var(--text-main);
+  border: 2px solid black;
   padding: 4px;
   border-radius: 40px;
   width: 80px;
@@ -120,8 +120,7 @@
 
 .dwnldbtn {
   background-color: var(--btn-main);
-  border: 2px;
-  border-color: dimgray;
+  border: 2px solid black;
   border-radius: 40px;
   width: 80px;
   color: black;
