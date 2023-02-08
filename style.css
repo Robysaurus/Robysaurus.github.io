@@ -87,7 +87,7 @@
 }
 
 .toggle-label {
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   cursor: pointer;
@@ -132,4 +132,21 @@
 
 .dwnldbtn:hover {
   background-color: RoyalBlue;
+}
+
+.gamelinks {
+  background-color:aqua;
+  border: 2px solid black;
+  border-radius: 40px;
+  width: 100px;
+  color: black;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 auto;
+  left: 50px;
+}
+
+.gamelinks:hover {
+  background-color: cyan;
 }
