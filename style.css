@@ -147,7 +147,7 @@
   font-size: 17px;
   font-family: 'Courier New', Courier, monospace;
   margin: 0 auto;
-  position: absolute;
+  position: relative;
 }
 
 .links:hover {
