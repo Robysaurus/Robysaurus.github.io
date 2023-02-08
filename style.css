@@ -68,14 +68,16 @@
 }
 
 .toggle {
-  position: relative;
+  position: static;
   margin-bottom: 24px;
   user-select: none;
+  align-items: center;
 }
 
 .toggle-icon {
   width: 28px;
   user-select: none;
+  align-items: center;
 }
 
 .toggle-input {
@@ -87,7 +89,7 @@
 }
 
 .toggle-label {
-  display: inline-block;
+  display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
@@ -134,19 +136,20 @@
   background-color: RoyalBlue;
 }
 
-.gamelinks {
+.links {
   background-color:aqua;
   border: 2px solid black;
   border-radius: 40px;
-  width: 100px;
+  width: 170px;
   color: black;
   padding: 12px 30px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 17px;
+  font-family: 'Courier New', Courier, monospace;
   margin: 0 auto;
-  left: 50px;
+  position: absolute;
 }
 
-.gamelinks:hover {
-  background-color: cyan;
+.links:hover {
+  background-color: dodgerblue;
 }
