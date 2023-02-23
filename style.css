@@ -136,6 +136,20 @@
   background-color: RoyalBlue;
 }
 
+.moddwnldbtn {
+  background-color: var(--btn-main);
+  border: 2px solid black;
+  border-radius: 40px;
+  width: 200px;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.moddwnldbtn:hover {
+  background-color: RoyalBlue;
+}
+
 .links {
   background-color:aqua;
   border: 2px solid black;
