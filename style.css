@@ -155,12 +155,12 @@
 }
 
 table {
-  height: 20%;
+  height: 10%;
   left: 30%;
   margin: 20px auto;
   overflow-y: scroll;
   position: static;
-  width: 40%;
+  width: 20%;
 }
 
 thead th {
@@ -181,7 +181,7 @@ tr {
 
 th, td {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 400;
   padding: 20px;
   text-align: left;
