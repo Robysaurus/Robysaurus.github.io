@@ -154,6 +154,15 @@
   background-color: dodgerblue;
 }
 
+table {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 80%;
+}
+
 thead th {
   background: #25abf3;
   color: #000000;
