@@ -158,9 +158,9 @@ table {
   height: 10%;
   left: 30%;
   margin: 20px auto;
-  overflow-y: scroll;
   position: static;
-  width: 20%;
+  overflow-y: scroll;
+  width: 50%;
 }
 
 thead th {
@@ -171,19 +171,20 @@ thead th {
   font-weight: 100;
   letter-spacing: 2px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 tr {
   background: #46c0e9;
   border-bottom: 1px solid #000000;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 th, td {
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
   font-weight: 400;
-  padding: 20px;
-  text-align: left;
-  width: 33.3333%;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
 }
