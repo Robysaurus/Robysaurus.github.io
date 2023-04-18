@@ -136,20 +136,6 @@
   background-color: RoyalBlue;
 }
 
-.moddwnldbtn {
-  background-color: var(--btn-main);
-  border: 2px solid black;
-  border-radius: 40px;
-  width: 200px;
-  color: black;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-.moddwnldbtn:hover {
-  background-color: RoyalBlue;
-}
-
 .links {
   background-color:aqua;
   border: 2px solid black;
@@ -166,4 +152,29 @@
 
 .links:hover {
   background-color: dodgerblue;
+}
+
+thead th {
+  background: #25abf3;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+tr {
+  background: #46c0e9;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 20px;
+  text-align: left;
+  width: 33.3333%;
 }
