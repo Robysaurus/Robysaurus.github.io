@@ -155,12 +155,12 @@
 }
 
 table {
-  height: 40%;
-  left: 10%;
+  height: 20%;
+  left: 30%;
   margin: 20px auto;
   overflow-y: scroll;
   position: static;
-  width: 80%;
+  width: 40%;
 }
 
 thead th {
